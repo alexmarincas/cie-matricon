@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "LatoWeb";
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
@@ -320,7 +320,8 @@ header .scroll_holder img {
       grid-template-columns: 40% 60%;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-      grid-template-areas: "header header" "col_1 col_2";
+      grid-template-areas: "header header"
+ "col_1 col_2";
   grid-auto-flow: column;
 }
 
@@ -461,7 +462,9 @@ header .scroll_holder img {
       grid-template-columns: 60% 40%;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-      grid-template-areas: "title title"  "gallery wwd" "products abstract";
+      grid-template-areas: "title title" 
+ "gallery wwd"
+ "products abstract";
   grid-auto-flow: column;
 }
 
